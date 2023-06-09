@@ -1,5 +1,3 @@
-import IP_ADDRESS_TRACKER_API from "./apikey.js";
-
 // Variables for form input
 const form = document.getElementById("ip-form");
 const inputField = document.getElementById("input-field");
