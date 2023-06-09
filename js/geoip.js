@@ -9,12 +9,21 @@ const timezoneElement = document.getElementById('timezone');
 const ispElement = document.getElementById('isp');
 
 // Validates user input and display fetched data on submit
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", async function(event) {
   event.preventDefault(); // Prevents initial form submission
-  const inputValue = inputField.value;
+  let inputValue = inputField.value;
 
   // Checks for valid IPv4 or IPv6 address
-  if (validateAddress(inputValue)) {
+  if (inputValue === "") {
+    event.preventDefault();
+    const response = await fetch("https://api.ipify.org?format=json");
+    const data = await response.json();
+    const userIP = data.ip;
+    inputValue = userIP;
+    getData(inputValue);
+  }
+
+  else if (validateAddress(inputValue)) {
     // Fetch data from 3rd party API
     getData(inputValue);
   }

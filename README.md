@@ -10,11 +10,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -32,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/arifaisal123/frontend_projects/tree/main/frontend_challenges/ip_address_tracker](https://github.com/arifaisal123/frontend_projects/tree/main/frontend_challenges/ip_address_tracker)
+- Live Site URL: [https://iptrac.netlify.app/](https://iptrac.netlify.app/)
 
 ## My process
 
@@ -42,14 +38,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- LeafletJS
+- GEO IP API (ipify)
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Arif Faisal](https://arifaisal123.github.io)
+- Frontend Mentor - [@arifaisal123](https://www.frontendmentor.io/profile/arifaisal123)
+- Twitter - [@faisalcodes123](https://www.twitter.com/faisalcodes123)
