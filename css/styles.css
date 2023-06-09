@@ -183,10 +183,19 @@
     .head-section {
         min-height: 35vh;
         background-image: url("../images/pattern-bg-mobile.png");
+        padding-top: 60px;
+    }
+
+    .result-container .ip-address {
+        margin-top: 20px;
+    }
+
+    .result-container .isp {
+        margin-bottom: 20px;
     }
 
     #map {
-        min-height: 60vh;
+        min-height: 65vh;
       }
 }
 
