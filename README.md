@@ -21,6 +21,7 @@ Users should be able to:
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Search for any IP addresses or domains and see the key information and location
+- Submit without typing anything in the input field to view your own IP address and other information
 
 ### Screenshot
 
