@@ -10,6 +10,8 @@
 
 .head-section {
     background-image: url("../images/pattern-bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 35vh;
     display: flex;
     justify-content: flex-start;
